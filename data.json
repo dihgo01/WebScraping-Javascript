@@ -1,0 +1,68 @@
+{
+  "list": [
+    {
+      "src": "https://img1.icarros.com/dbimg/imgmodelo/2/607_13.png"
+    },
+    {
+      "src": "https://img2.icarros.com/dbimg/imgmodelo/2/287_17.png"
+    },
+    {
+      "src": "https://img0.icarros.com/dbimg/imgmodelo/2/2547_6.png"
+    },
+    {
+      "src": "https://img1.icarros.com/dbimg/imgmodelo/2/628_8.png"
+    },
+    {
+      "src": "https://img0.icarros.com/dbimg/imgmodelo/2/285_11.png"
+    },
+    {
+      "src": "https://img2.icarros.com/dbimg/imgmodelo/2/881_10.png"
+    },
+    {
+      "src": "https://img1.icarros.com/dbimg/imgmodelo/2/286_8.png"
+    },
+    {
+      "src": "https://img2.icarros.com/dbimg/imgmodelo/2/2498_2.png"
+    },
+    {
+      "src": "https://img1.icarros.com/dbimg/imgmodelo/2/961_8.png"
+    },
+    {
+      "src": "https://img2.icarros.com/dbimg/imgmodelo/2/290_18.png"
+    },
+    {
+      "src": "https://img2.icarros.com/dbimg/imgmodelo/2/2807_1.png"
+    },
+    {
+      "src": "https://img0.icarros.com/comum/imagens/icone_imagemnaodisponivel_170x128.gif"
+    }
+  ],
+  "listTitle": [
+    "EcoSport",
+    "Ka",
+    "Ka Sedan",
+    "Ranger (Cabine Dupla)",
+    "Focus Hatch",
+    "Fusion",
+    "Focus Sedan",
+    "Ranger (Cabine Simples-Estendida)",
+    "Edge",
+    "Mustang",
+    "Territory",
+    "Bronco"
+  ],
+  "listAvaible": [
+    "8,4",
+    "8,1",
+    "8,2",
+    "9",
+    "8,3",
+    "9,1",
+    "9,2",
+    "",
+    "",
+    "9",
+    "8",
+    "10"
+  ]
+}
