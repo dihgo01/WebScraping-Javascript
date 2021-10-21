@@ -38,31 +38,79 @@
     }
   ],
   "listTitle": [
-    "EcoSport",
-    "Ka",
-    "Ka Sedan",
-    "Ranger (Cabine Dupla)",
-    "Focus Hatch",
-    "Fusion",
-    "Focus Sedan",
-    "Ranger (Cabine Simples-Estendida)",
-    "Edge",
-    "Mustang",
-    "Territory",
-    "Bronco"
+    {
+      "title": "EcoSport"
+    },
+    {
+      "title": "Ka"
+    },
+    {
+      "title": "Ka Sedan"
+    },
+    {
+      "title": "Ranger (Cabine Dupla)"
+    },
+    {
+      "title": "Focus Hatch"
+    },
+    {
+      "title": "Fusion"
+    },
+    {
+      "title": "Focus Sedan"
+    },
+    {
+      "title": "Ranger (Cabine Simples-Estendida)"
+    },
+    {
+      "title": "Edge"
+    },
+    {
+      "title": "Mustang"
+    },
+    {
+      "title": "Territory"
+    },
+    {
+      "title": "Bronco"
+    }
   ],
   "listAvaible": [
-    "8,4",
-    "8,1",
-    "8,2",
-    "9",
-    "8,3",
-    "9,1",
-    "9,2",
-    "",
-    "",
-    "9",
-    "8",
-    "10"
+    {
+      "avaible": "8,4"
+    },
+    {
+      "avaible": "8,1"
+    },
+    {
+      "avaible": "8,2"
+    },
+    {
+      "avaible": "9"
+    },
+    {
+      "avaible": "8,3"
+    },
+    {
+      "avaible": "9,1"
+    },
+    {
+      "avaible": "9,2"
+    },
+    {
+      "avaible": ""
+    },
+    {
+      "avaible": ""
+    },
+    {
+      "avaible": "9"
+    },
+    {
+      "avaible": "8"
+    },
+    {
+      "avaible": "10"
+    }
   ]
 }

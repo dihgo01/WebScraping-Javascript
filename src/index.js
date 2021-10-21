@@ -14,19 +14,19 @@ const fs = require('fs');
     const nodeListRate = document.querySelectorAll('.price-results__rate')
 
     const listNode = document.querySelectorAll('.title--brand__highlight')
-    let listTitle = []
-    let listAvaible = []
 
-    for (var i = 0; i < listNode.length; i++) {
+    const dataTitle = [...listNode]
 
-      listTitle[i] = listNode[i].textContent.replace('\n' ,'');
-      
-    }
-    for (var i = 0; i < nodeListRate.length; i++) {
+    const listTitle = dataTitle.map(itens => ({
+      title: itens.textContent.replace('\n', ''),
+    }))
 
-      listAvaible[i] = nodeListRate[i].textContent.replace('\n' ,'').trim();
-      
-    }
+
+    const dataAvaible = [...nodeListRate]
+
+    const listAvaible = dataAvaible.map(itens => ({
+      avaible: itens.textContent.replace('\n', '').trim(),
+    }))
 
     const ListArray = [...nodeListImg]
 
@@ -34,11 +34,11 @@ const fs = require('fs');
       src: items.src,
     }))
 
-     return ({list, listTitle, listAvaible})
+    return ({ list, listTitle, listAvaible })
   });
 
   fs.writeFile('data.json', JSON.stringify(ListData, null, 2), err => {
-    if(err) throw new Error('something went wrong')
+    if (err) throw new Error('something went wrong')
 
     console.log('well done!')
   })
