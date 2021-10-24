@@ -14,7 +14,8 @@
     <style>
         .container {
             margin: 30px;
-            display: flex;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr ;
         }
         .card {
             margin: 10px;
@@ -31,10 +32,10 @@
             })
 
             const dataImg = data.list.map(itens => `
-            <div class="card" style="width: 40rem;">    
+            <div class="card" style="width: 25rem;">    
                 <img src="${itens.src}" class="card-img-top" alt="car">
-                <h5 class="card-title">testando</h5>
-                <p class="card-text">o testado</p>
+                <h5 class="card-title"></h5>
+                <p class="card-text"></p>
             </div>   
             `).join(' ')
             document.querySelector('.container').innerHTML = dataImg
@@ -50,8 +51,8 @@
 
             for (var i = 0; i < arrayTitle.length; i++) {
 
-                arrayTitle[i].textContent = dataTitle[i];
-                arrayAvaible[i].textContent = dataAvaible[i];
+                arrayTitle[i].textContent = 'Ford'+' '+ dataTitle[i];
+                arrayAvaible[i].textContent = 'Avaliaçao'+' '+ dataAvaible[i];
 
             }
         })()
